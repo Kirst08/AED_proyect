@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="main_l" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="750.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controlador_Principal">
+   <children>
+      <Pane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Button layoutX="483.0" layoutY="475.0" mnemonicParsing="false" onMouseClicked="#Salir_G1" prefHeight="36.0" prefWidth="112.0" style="-fx-background-color: #ff0000; -fx-background-radius: 30px;" text="SALIR" textFill="WHITE">
+               <font>
+                  <Font name="DejaVu Serif Bold" size="13.0" />
+               </font>
+            </Button>
+            <Pane fx:id="nodes" prefHeight="460.0" prefWidth="750.0" />
+            <Button layoutX="235.0" layoutY="475.0" mnemonicParsing="false" onMouseClicked="#Nodo" prefHeight="36.0" prefWidth="112.0" style="-fx-background-color: #57CC99; -fx-border-radius: 30px; -fx-background-radius: 30px;" text="INSERTAR">
+               <font>
+                  <Font name="DejaVu Serif Bold" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</StackPane>

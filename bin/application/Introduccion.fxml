@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controlador_Principal">
+   <children>
+      <StackPane fx:id="main_l" prefHeight="550.0" prefWidth="750.0">
+         <children>
+            <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #070707;">
+               <children>
+                  <Pane prefHeight="550.0" prefWidth="292.0" style="-fx-background-color: #22577A;">
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#57cc99" height="52.0" layoutY="171.0" stroke="TRANSPARENT" strokeType="INSIDE" width="292.0" />
+                        <ImageView fitHeight="250.0" fitWidth="400.0" layoutX="21.0" layoutY="-27.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/Log_p.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="65.0" layoutY="172.0" text="EVANIC" textFill="WHITE">
+                           <font>
+                              <Font name="DejaVu Serif Condensed Bold" size="42.0" />
+                           </font>
+                        </Label>
+                        <Text fill="WHITE" layoutX="16.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hola, soy evanic, un carpincho programador y accesor de este proyecto final de AED. " textAlignment="CENTER" wrappingWidth="260.765625">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="10.0" layoutY="395.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Primero inicia sesión para adentrarte al programa. " textAlignment="CENTER" wrappingWidth="270.505859375">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Button layoutX="51.0" layoutY="466.0" mnemonicParsing="false" onMouseClicked="#panel2" prefHeight="47.0" prefWidth="185.0" style="-fx-background-color: #57CC99;" text="VER CREDITOS" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="DejaVu Sans Bold" size="17.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <ImageView fitHeight="189.0" fitWidth="400.0" layoutX="410.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/UNI-LOGO.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="441.0" layoutY="234.0" text="BIENVENIDO" textFill="WHITE">
+                     <font>
+                        <Font name="DejaVu Serif Condensed Bold" size="30.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#38a3a5" height="61.0" layoutX="292.0" layoutY="300.0" stroke="#ffffff00" strokeType="INSIDE" width="458.0" />
+                  <Text fill="WHITE" layoutX="394.0" layoutY="400.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Por favor, identifiquese" textAlignment="CENTER" wrappingWidth="270.505859375">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="436.0" layoutY="429.0" mnemonicParsing="false" onMouseClicked="#Log" prefHeight="47.0" prefWidth="185.0" style="-fx-background-color: #57CC99; -fx-border-radius: 45px; -fx-background-radius: 45px;" text="INICIAR SESIÓN" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="DejaVu Sans Bold" size="17.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>

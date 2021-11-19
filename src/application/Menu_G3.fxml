@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane fx:id="main_l" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controlador_Principal">
+   <children>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550" prefWidth="750" styleClass="fondo">
+         <children>
+            <Button layoutX="48.0" layoutY="180.0" mnemonicParsing="false" onMouseClicked="#buscar" prefHeight="149.0" prefWidth="200.0" styleClass="buscar">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Button>
+            <Button layoutX="493.0" layoutY="180.0" mnemonicParsing="false" onMouseClicked="#ordenar" prefHeight="149.0" prefWidth="200.0" styleClass="ordenar" />
+            <Text fill="WHITE" layoutX="94.0" layoutY="381.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Buscar" wrappingWidth="108.13671875">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="532.0" layoutY="379.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ordenar" wrappingWidth="122.13671875">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+            <Button layoutX="3.0" layoutY="519.0" mnemonicParsing="false" onMouseClicked="#Salir_G1" prefHeight="27.0" prefWidth="74.0" style="-fx-background-color: #ff0000;" text="SALIR" textFill="WHITE">
+               <font>
+                  <Font name="DejaVu Sans Bold" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</StackPane>

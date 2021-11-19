@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="536.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Guia5.Controller5">
+   <children>
+      <Text fill="WHITE" layoutX="69.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EJERCICIO 2" textAlignment="CENTER" wrappingWidth="393.13671875">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Button layoutX="101.0" layoutY="456.0" mnemonicParsing="false" onMouseClicked="#inserta2" prefHeight="61.0" prefWidth="126.0" style="-fx-background-radius: 100; -fx-background-color: #38A3A5; -fx-border-radius: 100; -fx-border-color: #FCFBFE; -fx-border-width: 5px;" text="Insertar" textFill="#0d0404">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="318.0" layoutY="456.0" mnemonicParsing="false" onMouseClicked="#impej2" prefHeight="61.0" prefWidth="126.0" style="-fx-background-radius: 100; -fx-background-color: #38A3A5; -fx-border-radius: 100; -fx-border-color: #FCFBFE; -fx-border-width: 5px;" text="Mostrar" textFill="#0d0404">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <StackPane fx:id="ej2" layoutX="19.0" layoutY="63.0" prefHeight="363.0" prefWidth="499.0" style="-fx-border-color: #38A3A5; -fx-border-width: 6px;" />
+   </children>
+</Pane>

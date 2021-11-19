@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane fx:id="main_l" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="750.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Guia2.controller3_G2">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="750.0" style="-fx-background-color: #000000;">
+         <children>
+            <Pane layoutX="480.0" prefHeight="550.0" prefWidth="271.0" style="-fx-background-color: #7092BE;">
+               <children>
+                  <Pane layoutX="29.0" layoutY="143.0" prefHeight="363.0" prefWidth="214.0" style="-fx-background-color: #7F7F7F;">
+                     <children>
+                        <Button layoutX="28.0" layoutY="266.0" mnemonicParsing="false" onMouseClicked="#Salir" prefHeight="39.0" prefWidth="162.0" style="-fx-background-radius: 10px; -fx-background-color: #ff0000;" text="Salir" textFill="WHITE">
+                           <font>
+                              <Font name="DejaVu Sans Bold" size="20.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="28.0" layoutY="49.0" mnemonicParsing="false" onMouseClicked="#insert_c1" prefHeight="39.0" prefWidth="162.0" style="-fx-background-radius: 10px; -fx-background-color: #4961CD;" text="Insertar" textFill="WHITE">
+                           <font>
+                              <Font name="DejaVu Sans Bold" size="20.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="26.0" layoutY="123.0" mnemonicParsing="false" onMouseClicked="#delete_c1" prefHeight="39.0" prefWidth="162.0" style="-fx-background-radius: 10px; -fx-background-color: #4961CD;" text="Eliminar" textFill="WHITE">
+                           <font>
+                              <Font name="DejaVu Sans Bold" size="20.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="28.0" layoutY="195.0" mnemonicParsing="false" onMouseClicked="#mostrar_c1" prefHeight="39.0" prefWidth="162.0" style="-fx-background-radius: 10px; -fx-background-color: #4961CD;" text="Mostrar" textFill="WHITE">
+                           <font>
+                              <Font name="DejaVu Sans Bold" size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Text fill="WHITE" layoutX="52.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OPCIONES">
+                     <font>
+                        <Font name="DejaVu Sans Mono Bold" size="35.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <StackPane fx:id="C_add" layoutX="13.0" layoutY="16.0" prefHeight="524.0" prefWidth="451.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
